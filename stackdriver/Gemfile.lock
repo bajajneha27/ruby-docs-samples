@@ -70,7 +70,7 @@ GEM
     mustermann (1.0.3)
     os (1.0.1)
     public_suffix (3.1.1)
-    rack (2.0.7)
+    rack (2.2.3)
     rack-protection (2.0.5)
       rack
     rly (0.2.3)
@@ -87,6 +87,8 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.2)
+    rspec_junit_formatter (0.4.1)
+      rspec-core (>= 2, < 4, != 2.12.0)
     signet (0.11.0)
       addressable (~> 2.3)
       faraday (~> 0.9)
@@ -112,6 +114,7 @@ PLATFORMS
 DEPENDENCIES
   google-cloud-monitoring
   rspec
+  rspec_junit_formatter
   sinatra
   stackdriver
 
